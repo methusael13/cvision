@@ -1,0 +1,5 @@
+# Python specific
+__pycache__
+
+# Others
+.directory
