@@ -1,6 +1,6 @@
 '''
     Author: Methusael Murmu
-    Module implementing parallel Camera feed IO
+    Module implementing parallel Camera I/O feed
 '''
 
 import cv2
