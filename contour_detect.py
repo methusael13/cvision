@@ -32,7 +32,7 @@ if __name__ == '__main__':
     scr_mx, scr_my = scrw // 2, scrh // 2
 
     # Create placeholder for image window
-    cv2.namedWindow(WIN_CAM_FEED, cv2.WINDOW_AUTOSIZE | cv2.WINDOW_GUI_NORMAL)
+    cv2.namedWindow(WIN_CAM_FEED, cv2.WINDOW_AUTOSIZE | cv2.WINDOW_NORMAL)
     # Center the window
     cv2.moveWindow(WIN_CAM_FEED, scr_mx - win_mx, scr_my - win_my)
     # Start polling camera frames

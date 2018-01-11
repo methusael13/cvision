@@ -98,7 +98,7 @@ def detectFacesFromCamera(detect_eyes = False, anchor_window = False):
     aspw, asph = scrw / capw, scrh / caph
 
     # Create window placeholder
-    cv2.namedWindow(WIN_PROC_TITLE, cv2.WINDOW_AUTOSIZE | cv2.WINDOW_GUI_NORMAL)
+    cv2.namedWindow(WIN_PROC_TITLE, cv2.WINDOW_AUTOSIZE | cv2.WINDOW_NORMAL)
     # Center the window
     cv2.moveWindow(WIN_PROC_TITLE, scr_mx - win_mx, scr_my - win_my)
 
